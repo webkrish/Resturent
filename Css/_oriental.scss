@@ -1,0 +1,51 @@
+.oriantal {
+    overflow: hidden;
+
+    img {
+        width: 73%;
+        rotate: 90deg;
+        margin-top: -266px;
+        margin-left: 180px;
+    }
+
+    .section {
+        @include flex;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -850px;
+
+        .left {
+            width: 48%;
+
+            img {
+                border-radius: 50%;
+                margin-left: -18px;
+                margin-top: -68px;
+            }
+        }
+
+        .text {
+            width: 48%;
+            z-index: 1;
+
+            h1 {
+                font-family: $mainfont;
+                color: $yellcolor;
+                font-size: 5.5rem;
+                font-weight: 300;
+            }
+
+            p {
+                width: 115%;
+                color: #fff;
+                font-size: 1.2rem;
+                line-height: 20px;
+            }
+
+            button {
+                @include btn;
+                margin-top: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+
+.subscribe-section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    
+    .vector {
+        position: relative;
+        left: -120px;
+
+        :first-child {
+            width: 2%;
+            position: relative;
+            left: -25px;
+            top: -33px;
+        }
+
+        :nth-child(2) {
+            width: 4%;
+            position: relative;
+            top: 109px;
+            left: -245px;
+        }
+
+        :nth-child(3) {
+            width: 2%;
+            position: relative;
+            top: 329px;
+            left: -28px;
+        }
+
+        :nth-child(4) {
+            width: 3%;
+            position: relative;
+            top: 205px;
+            left: 517px;
+        }
+
+        :nth-child(5) {
+            width: 7%;
+            position: relative;
+            top: 20px;
+            left: 350px;
+        }
+
+        :nth-child(6) {
+            width: 5%;
+            position: relative;
+            top: -16px;
+        }
+    }
+    p {
+        font-size: 1.6rem;
+        line-height: 20px;
+        padding: 25px 140px;
+    }
+
+    h1 {
+        font-family: $mainfont;
+        font-size: 5.5rem;
+        font-weight: 300;
+    }
+    input{
+        width: 215px;
+    padding: 8px 0 8px 15px;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 50px;
+    margin-top: 35px;
+    border: 0;
+    outline: 0;
+    }
+    label{
+        display: inline-block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-left: -3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 8px 5px 50px;
+    padding: 8px 15px;
+    background: #ffc200;
+    font-weight: 600;
+    }
+}

@@ -1,0 +1,49 @@
+$yellcolor: #ffc200;
+$greycolor: #2f2f2f;
+$textfont: 'Montserrat', sans-serif;
+$mainfont: 'Grand Hotel', cursive;
+
+
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@mixin btn {
+    background-color: $yellcolor;
+    color: $greycolor;
+    font-family: $textfont;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 35px;
+}
+
+* {
+    font-family: $textfont;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+@include home;
+
+@include menu;
+
+@include oriental;
+
+@include statistics;
+
+@include chicken;
+
+@include senora;
+
+@include subscriber;
+
+@include footer;
+
+
+
+
+

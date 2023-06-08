@@ -1,0 +1,288 @@
+@media only screen and (max-width:830px) {
+ 
+
+    .home {
+        height: 100vh;
+
+        nav {
+            ul {
+                float: right;
+                display: none;
+
+                li {
+                    padding: 5px;
+                    float: left;
+                }
+            }
+
+            p {
+                float: right;
+                display: none;
+            }
+
+            li {
+                float: none;
+                position: relative;
+                top: 10px;
+                text-align: right;
+            }
+
+            button {
+                display: block;
+                position: absolute;
+                right: 17px;
+            }
+
+            button {
+                display: block;
+                background: none;
+                border: none;
+                color: #fff;
+
+                .fa {
+                    font-size: 2.2rem;
+                    padding: 5px 20px;
+                }
+
+                .fa-times {
+                    display: none;
+                }
+            }
+        }
+
+        .image {
+            display: none
+        }
+
+        .banner-text {
+            position: absolute;
+            top: 10%;
+            left: 20%;
+            right: 17%;
+        }
+    }
+
+    .oriantal {
+        background-color: #2f2f2f;
+
+        img {
+            display: none;
+        }
+
+        .section {
+            margin-top: 0;
+            padding: 25px 0;
+
+            .left {
+                img {
+                    display: block;
+                    margin-left: 5px;
+                    margin-top: 0px;
+                }
+            }
+
+        }
+    }
+
+    .statistic-section {
+        overflow: hidden;
+    }
+
+    .chicken-section {
+        background-color: #2f2f2f;
+
+        img {
+            display: none;
+            margin-left: 0;
+        }
+
+        .section {
+            margin-top: 0;
+            padding: 25px 0;
+
+            .right {
+                img {
+                    display: block;
+                    margin-left: 75px;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    .senora-fields {
+        padding: 50px 0;
+
+        p {
+            padding: 30px 115px;
+        }
+    }
+
+    .subscribe-section {
+        overflow: hidden;
+
+        p {
+            padding: 30px 75px;
+        }
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:560px) {
+ 
+
+    .home {
+        height: 65vh;
+        nav {
+            .logo {
+                img {
+                    width: 50%;
+                }
+            }
+        }
+
+        .banner-text {
+            top: 15%;
+
+            h1 {
+                font-size: 4.5rem;
+            }
+
+            .vector {
+                display: none;
+            }
+        }
+    }
+
+    .menu-section {
+        h1 {
+            font-size: 4.5rem;
+        }
+
+        p {
+            padding: 0;
+        }
+
+        .img-section {
+            flex-direction: column;
+            align-items: center;
+
+            .menu {
+                padding: 20px 0;
+            }
+        }
+    }
+
+    .oriantal {
+        width: 100%;
+
+        .section {
+            .left {
+                width: 100%;
+
+                img {
+                    margin: 0 auto;
+                }
+            }
+
+            .text {
+                text-align: center;
+                width: 100%;
+
+                p {
+                    width: 100%;
+                }
+
+                h1 {
+                    font-size: 4.5rem;
+                }
+            }
+        }
+    }
+
+    .statistic-section {
+        .round {
+            margin-top: 30px;
+        }
+
+        .info {
+            padding: 10px 0;
+        }
+
+        .text {
+            h1 {
+                font-size: 4.5rem;
+            }
+        }
+    }
+
+    .chicken-section {
+        .section {
+            flex-direction: column;
+
+            .text {
+                text-align: center;
+                width: 100%;
+
+                p {
+                    width: 100%;
+                }
+
+                h1 {
+                    font-size: 4.5rem;
+                }
+            }
+
+            .right {
+                width: 100%;
+
+                img {
+                    margin: 10px auto;
+                }
+            }
+        }
+    }
+
+    .senora-fields {
+        p {
+            padding: 30px 10px;
+        }
+    }
+
+    .subscribe-section {
+        h1 {
+            font-size: 4.5rem;
+        }
+
+        p {
+            padding: 30px 10px;
+        }
+
+        input {
+            width: 130px;
+        }
+
+        label {
+            padding: 8px 6px;
+        }
+    }
+
+    footer {
+        .big-wrapper {
+            padding: 45px 0;
+
+            .left {
+                width: 100%;
+                text-align: center;
+            }
+
+            .right {
+                width: 100%;
+                margin-top: 40px;
+            }
+        }
+    }
+}
