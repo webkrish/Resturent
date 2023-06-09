@@ -47,6 +47,9 @@
     left: 20%;
     right: 17%;
   }
+  .home .banner-text .vector {
+    display: none;
+  }
   .oriantal {
     background-color: #2f2f2f;
   }
@@ -181,9 +184,11 @@
   }
   .subscribe-section input {
     width: 130px;
+    padding: 9px;
   }
   .subscribe-section label {
-    padding: 8px 6px;
+    padding: 9px 10px;
+    font-size: 1.2rem;
   }
   footer .big-wrapper {
     padding: 45px 0;

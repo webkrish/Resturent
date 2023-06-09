@@ -59,6 +59,9 @@
             top: 10%;
             left: 20%;
             right: 17%;
+            .vector{
+                display: none;
+            }
         }
     }
 
@@ -263,10 +266,12 @@
 
         input {
             width: 130px;
+            padding: 9px;
         }
 
         label {
-            padding: 8px 6px;
+            padding: 9px 10px;
+            font-size: 1.2rem;
         }
     }
 

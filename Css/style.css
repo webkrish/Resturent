@@ -20,11 +20,6 @@
 .home nav .logo {
   width: 40%;
 }
-.home nav button{
-  padding:5px;
-  float: right;
-  display: none;
-}
 .home nav .logo img {
   width: 35%;
   padding-left: 50px;
@@ -35,14 +30,15 @@
   justify-content: space-between;
   list-style: none;
   padding: 20px;
+  align-items: center;
 }
 .home nav ul li {
-  padding: 0 15px;
+  padding: 0 40px;
 }
 .home nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .home nav p {
   padding: 20px;
@@ -50,6 +46,9 @@
 .home nav p .fa {
   color: #fff;
   font-size: 1.5rem;
+}
+.home nav button {
+  display: none;
 }
 .home .image .one {
   float: left;
@@ -66,7 +65,7 @@
 .home .image .two img {
   width: 100%;
   height: 100vh;
-  margin: -6px -115px;
+  margin: -20px -180px;
 }
 .home .banner-text {
   position: absolute;
@@ -75,46 +74,46 @@
   right: 17%;
 }
 .home .banner-text .vector :first-child {
-  width: 5%;
+  width: 4%;
   position: relative;
-  left: -25px;
-  top: -33px;
+  left: 35px;
+  top: -30px;
 }
 .home .banner-text .vector :nth-child(2) {
   width: 11%;
   position: relative;
   top: 127px;
-  left: -86px;
+  left: -117px;
 }
 .home .banner-text .vector :nth-child(3) {
   width: 3%;
   position: relative;
-  top: 314px;
-  right: -314px;
+  top: 485px;
+  right: -500px;
 }
 .home .banner-text .vector :nth-child(4) {
   width: 8%;
   position: relative;
-  top: 177px;
-  left: 342px;
+  top: 205px;
+  left: 605px;
 }
 .home .banner-text .vector :nth-child(5) {
   width: 16%;
   position: relative;
-  top: 10px;
-  left: 170px;
+  top: 15px;
+  left: 380px;
 }
 .home .banner-text .vector :nth-child(6) {
   width: 17%;
   position: relative;
-  top: 315px;
-  right: 36px;
+  top: 440px;
+  right: 10px;
 }
 .home .banner-text .vector :nth-child(7) {
   width: 5%;
   position: relative;
-  top: 285px;
-  left: -247px;
+  top: 360px;
+  left: -325px;
 }
 .home .banner-text .vector :nth-child(8) {
   width: 5%;
@@ -131,14 +130,14 @@
 .home .banner-text h1 {
   font-family: "Grand Hotel", cursive;
   color: #ffc200;
-  font-size: 7rem;
+  font-size: 9.5rem;
   font-weight: 300;
 }
 .home .banner-text p {
   width: 115%;
   color: #fff;
-  font-size: 1.2rem;
-  line-height: 20px;
+  font-size: 2rem;
+  line-height: 30px;
 }
 .home .banner-text button {
   background-color: #ffc200;
@@ -146,8 +145,9 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border: none;
+  font-size: 1.5rem;
   border-radius: 3px;
-  padding: 7px 35px;
+  padding: 10px 40px;
   margin-top: 25px;
 }
 
@@ -158,12 +158,12 @@
 }
 .menu-section h1 {
   font-family: "Grand Hotel", cursive;
-  font-size: 5rem;
+  font-size: 7rem;
   font-weight: 400;
   text-align: center;
 }
 .menu-section p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   padding: 0 80px;
 }
@@ -181,13 +181,13 @@
   border-radius: 50%;
 }
 .menu-section .img-section .menu h2 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: "Grand Hotel", cursive;
   padding: 5px 0;
   font-weight: 400;
 }
 .menu-section .img-section .menu p {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   padding: 0;
 }
 
@@ -197,7 +197,7 @@
 .oriantal img {
   width: 73%;
   rotate: 90deg;
-  margin-top: -266px;
+  margin-top: -400px;
   margin-left: 180px;
 }
 .oriantal .section {
@@ -206,15 +206,15 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  margin-top: -850px;
+  margin-top: -1380px;
 }
 .oriantal .section .left {
   width: 48%;
 }
 .oriantal .section .left img {
   border-radius: 50%;
-  margin-left: -18px;
-  margin-top: -68px;
+  margin-left: -50px;
+  margin-top: -90px;
 }
 .oriantal .section .text {
   width: 48%;
@@ -223,14 +223,14 @@
 .oriantal .section .text h1 {
   font-family: "Grand Hotel", cursive;
   color: #ffc200;
-  font-size: 5.5rem;
+  font-size: 7rem;
   font-weight: 300;
 }
 .oriantal .section .text p {
   width: 115%;
   color: #fff;
-  font-size: 1.2rem;
-  line-height: 20px;
+  font-size: 2rem;
+  line-height: 30px;
 }
 .oriantal .section .text button {
   background-color: #ffc200;
@@ -238,8 +238,9 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border: none;
+  font-size: 1.5rem;
   border-radius: 3px;
-  padding: 7px 35px;
+  padding: 10px 40px;
   margin-top: 25px;
 }
 
@@ -263,19 +264,19 @@
   width: 4%;
   position: relative;
   top: 109px;
-  left: -158px;
+  left: -265px;
 }
 .statistic-section .vector :nth-child(3) {
   width: 1%;
   position: relative;
-  top: 146px;
-  left: -28px;
+  top: 190px;
+  left: -115px;
 }
 .statistic-section .vector :nth-child(4) {
   width: 3%;
   position: relative;
   top: 131px;
-  left: 517px;
+  left: 757px;
 }
 .statistic-section .vector :nth-child(5) {
   width: 7%;
@@ -291,13 +292,13 @@
 .statistic-section h1 {
   font-family: "Grand Hotel", cursive;
   color: #ffc200;
-  font-size: 5.5rem;
+  font-size: 7rem;
   font-weight: 300;
 }
 .statistic-section p {
   color: #fff;
-  font-size: 1.2rem;
-  line-height: 20px;
+  font-size: 2rem;
+  line-height: 30px;
 }
 .statistic-section .info {
   display: flex;
@@ -331,7 +332,7 @@
 .chicken-section img {
   width: 73%;
   rotate: 270deg;
-  margin-top: -600px;
+  margin-top: -1035px;
   margin-left: 153px;
 }
 .chicken-section .section {
@@ -340,7 +341,8 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  margin-top: -608px;
+  margin-top: -910px;
+  align-items: center;
   padding-bottom: 55px;
 }
 .chicken-section .section .text {
@@ -350,14 +352,14 @@
 .chicken-section .section .text h1 {
   font-family: "Grand Hotel", cursive;
   color: #ffc200;
-  font-size: 5.5rem;
+  font-size: 7rem;
   font-weight: 300;
 }
 .chicken-section .section .text p {
   width: 115%;
   color: #fff;
-  font-size: 1.2rem;
-  line-height: 20px;
+  font-size: 2rem;
+  line-height: 30px;
 }
 .chicken-section .section .text button {
   background-color: #ffc200;
@@ -365,12 +367,14 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border: none;
+  font-size: 1.5rem;
   border-radius: 3px;
-  padding: 7px 35px;
+  padding: 10px 40px;
   margin-top: 25px;
 }
 .chicken-section .section .right {
   width: 48%;
+  margin-right: -50px;
 }
 .chicken-section .section .right img {
   border-radius: 50%;
@@ -386,13 +390,13 @@
   text-align: center;
 }
 .senora-fields p {
-  font-size: 1.6rem;
-  line-height: 20px;
+  font-size: 2rem;
+  line-height: 30px;
   padding: 32px 265px;
 }
 .senora-fields h1 {
   font-family: "Grand Hotel", cursive;
-  font-size: 3.5rem;
+  font-size: 7rem;
   font-weight: 300;
 }
 
@@ -442,21 +446,22 @@
   top: -16px;
 }
 .subscribe-section p {
-  font-size: 1.6rem;
-  line-height: 20px;
+  font-size: 2rem;
+  line-height: 30px;
   padding: 25px 140px;
 }
 .subscribe-section h1 {
   font-family: "Grand Hotel", cursive;
-  font-size: 5.5rem;
+  font-size: 7rem;
   font-weight: 300;
 }
 .subscribe-section input {
-  width: 215px;
-  padding: 8px 0 8px 15px;
+  width: 270px;
+  padding: 10px 0 10px 15px;
   font-weight: 400;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 50px;
   margin-top: 35px;
+  font-size: 1.2rem;
   border: 0;
   outline: 0;
 }
@@ -467,7 +472,7 @@
   height: 100%;
   margin-left: -3px;
   box-shadow: rgba(0, 0, 0, 0.35) 8px 5px 50px;
-  padding: 8px 15px;
+  padding: 12px 25px;
   background: #ffc200;
   font-weight: 600;
 }
@@ -489,17 +494,18 @@ footer .big-wrapper .left {
   width: 30%;
 }
 footer .big-wrapper .left h2 {
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 footer .big-wrapper .left p {
   padding: 20px 0;
+  font-size: 1.3rem;
 }
 footer .big-wrapper .left span {
   background-color: #fff;
-  padding: 5px;
-  width: 6%;
+  padding: 10px;
+  width: 5%;
   margin: 5px 6px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border-radius: 50%;
   color: #2f2f2f;
 }
@@ -512,8 +518,9 @@ footer .big-wrapper .right {
 }
 footer .big-wrapper .right .about h2 {
   padding-bottom: 10px;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 footer .big-wrapper .right .about p {
   padding: 3px 0;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=style.css.map */
