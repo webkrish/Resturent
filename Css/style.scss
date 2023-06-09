@@ -50,11 +50,13 @@ $mainfont: 'Grand Hotel', cursive;
         ul {
             @include flex;
             list-style: none;
-            padding: 20px;
+            width: 58%;
             align-items: center;
+            transition: all .3s ease-in-out;
 
             li {
                 padding: 0 40px;
+                transition: all .3s ease-in-out;
 
                 a {
                     text-decoration: none;

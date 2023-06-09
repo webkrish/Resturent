@@ -6,12 +6,18 @@
 
         nav {
             ul {
-                float: right;
+                background-color: #ffc200;
                 display: none;
+                width: 50%;
+                z-index: 1;
+                height: 100vh;
+                transition: all .3s ease-in-out;
 
                 li {
                     padding: 5px;
-                    float: left;
+                    text-align: center;
+                    padding: 15px 0;
+                    transition: all .3s ease-in-out;
                 }
             }
 
@@ -31,6 +37,7 @@
                 display: block;
                 position: absolute;
                 right: 17px;
+                z-index: 1;
             }
 
             button {

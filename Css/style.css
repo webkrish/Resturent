@@ -29,11 +29,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
-  padding: 20px;
+  width: 58%;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 .home nav ul li {
   padding: 0 40px;
+  transition: all 0.3s ease-in-out;
 }
 .home nav ul li a {
   text-decoration: none;
